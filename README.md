@@ -81,3 +81,19 @@ Component lifecycle:
 
   - [variable] -> Runs on mount and when variable changes
   - No array -> Runs on mount and on every state change.
+
+  7. Refs
+
+  The difference between refs and state variables:
+
+  - objects that contain values.
+  - State is something that can trigger a re-render.
+  - Refs do not trigger re-render.
+
+  Best time to use Refs:
+
+  - Managing focus or media
+  - Triggering animations
+  - Intergrating with DOM libraries.
+
+  Proper way to update a ref ina function componenet: You use an effect to do so.
