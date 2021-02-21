@@ -97,3 +97,15 @@ Component lifecycle:
   - Intergrating with DOM libraries.
 
   Proper way to update a ref ina function componenet: You use an effect to do so.
+
+  8. Context
+
+  Difference between the Context API and prop drilling:
+
+  - Context API the values are defined at the top level.
+
+  When NOT to use Context API:
+
+  - Only put what absolutely necessasry at the top level.
+
+  Context can be used for authentication, website theme.
