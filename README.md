@@ -109,3 +109,25 @@ Component lifecycle:
   - Only put what absolutely necessasry at the top level.
 
   Context can be used for authentication, website theme.
+
+  9. MISC
+
+  What is a fragment?
+
+  - Container to hold on to different elements. Does not produces anything in the DOM.
+
+  Error boundaries - react components that catch JavaScript errors anywhere in a child component. They log the errors and display a fallback UI.
+  You have to use them in a Class component.
+
+  What is a higher order component?
+
+  - function that takes in a component and returns a new component.
+
+  What is a portal?
+
+  - way to render children into a DOM node that exists outside of DOM hierarchy of the parent component.
+
+  Controlled vs Uncontrolled Components:
+
+  - Uncontroleed components: input user values, something manipulated by user.
+  - Controlled componeents: react controls the state changes.
