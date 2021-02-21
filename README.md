@@ -69,3 +69,15 @@ Component lifecycle:
   Updating lifecycle in a functional component:
 
   - useEffect hook
+
+  6. Effects
+
+  What parameters useEffect takes:
+
+  - a function (the return value is a clean-up function. Cleans up any event listeners)
+  - an array
+
+  It runs on mount, when things update.
+
+  - [variable] -> Runs on mount and when variable changes
+  - No array -> Runs on mount and on every state change.
