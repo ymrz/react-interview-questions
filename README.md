@@ -28,4 +28,11 @@ Shadow DOM is browser specific technology for specific elements that you can use
 - Owned by Facebook.
 - Documentation.
 
-3.
+3. JSX
+
+- Short for JavaScript XML
+- Write JavaScirpt with an HTML-like template syntax
+- Produces elements that represent objects
+
+Componenet is a fanction that returns an element.
+Element is a JavaScirpt object.
