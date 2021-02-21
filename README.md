@@ -45,3 +45,27 @@ Prop drilling - drilling props down in a bunch of components.
 
 You CANNOT modify props, it is read only.
 Functions are pure components.
+
+5. State and Lifecycle
+
+Props vs State - Props ans State are JavaSCript object. Props gets passed to the component. State is managed within a component.
+
+Difference between state in a class component vs state in a function component:
+
+Class: this.getState function. State is attached to the Class object. Something that persists.
+
+Function: State recalled multiple times.
+
+Component lifecycle:
+
+- Mounting
+  - render, componenetDidMount
+- Updating
+  - render, componenetDidUpdate
+- Unmounting
+
+  - componentWillUnmount
+
+  Updating lifecycle in a functional component:
+
+  - useEffect hook
