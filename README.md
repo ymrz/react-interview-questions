@@ -36,3 +36,12 @@ Shadow DOM is browser specific technology for specific elements that you can use
 
 Componenet is a fanction that returns an element.
 Element is a JavaScirpt object.
+
+4. Props
+
+Passing value from child to parent - pass a function prop.
+
+Prop drilling - drilling props down in a bunch of components.
+
+You CANNOT modify props, it is read only.
+Functions are pure components.
